@@ -82,7 +82,7 @@ const WelcomeScreen = ({ onGetStarted }) => {
       minHeight: '100vh', 
       width: '100%',
       position: 'relative',
-      overflow: 'hidden',
+      overflow: 'visible',
       background: isDark 
         ? 'linear-gradient(135deg, #0F172A 0%, #1E293B 100%)' 
         : 'linear-gradient(135deg, #F1F5F9 0%, #E2E8F0 100%)',
@@ -683,7 +683,7 @@ const WelcomeScreen = ({ onGetStarted }) => {
                         border: `4px solid ${theme.palette.primary.main}60`,
                       }
                     }}
-                    alt="Your Name"
+                    alt="J"
                     src="/your-photo.jpg" // Replace with your photo
                   />
                   <Stack 
@@ -694,6 +694,10 @@ const WelcomeScreen = ({ onGetStarted }) => {
                   >
                     <IconButton 
                       aria-label="GitHub" 
+                      component="a"
+                      href="https://github.com/jonathanw33"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       sx={{ 
                         color: theme.palette.text.secondary,
                         '&:hover': {
@@ -706,6 +710,10 @@ const WelcomeScreen = ({ onGetStarted }) => {
                     </IconButton>
                     <IconButton 
                       aria-label="LinkedIn"
+                      component="a"
+                      href="https://www.linkedin.com/in/jonathan-wiguna-0264b9314/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       sx={{ 
                         color: theme.palette.text.secondary,
                         '&:hover': {
@@ -718,6 +726,8 @@ const WelcomeScreen = ({ onGetStarted }) => {
                     </IconButton>
                     <IconButton 
                       aria-label="Email"
+                      component="a"
+                      href="mailto:jonathan.wiguna.p@gmail.com"
                       sx={{ 
                         color: theme.palette.text.secondary,
                         '&:hover': {
@@ -749,7 +759,7 @@ const WelcomeScreen = ({ onGetStarted }) => {
                     A Personal Note
                   </Typography>
                   <Typography variant="body1" paragraph sx={{ color: theme.palette.text.secondary, lineHeight: 1.8 }}>
-                    Hello! I'm [Your Name], a passionate developer with a deep appreciation for the intersection of technology and hospitality excellence. I designed this sentiment analysis dashboard as part of my IT internship application for Mandapa.
+                    Hello! I'm Jonathan Wiguna, a passionate developer with a deep appreciation for the intersection of technology and hospitality excellence. I designed this sentiment analysis dashboard as part of my IT internship application for Mandapa.
                   </Typography>
                   <Typography variant="body1" paragraph sx={{ color: theme.palette.text.secondary, lineHeight: 1.8 }}>
                     My goal was to create a tool that aligns with Mandapa's commitment to exceptional experiences. This project showcases my skills in frontend development, data visualization, and practical AI applications that can benefit luxury hospitality.
