@@ -184,7 +184,7 @@ const WelcomeScreen = ({ onGetStarted }) => {
           <Fade in={true} timeout={1500}>
             <Box 
               component="img" 
-              src="/mandapa-logo.png" 
+              src="/ritz.png" 
               alt="Mandapa Logo" 
               sx={{ 
                 maxWidth: '200px', 

@@ -253,7 +253,7 @@ function App() {
             `linear-gradient(90deg, transparent, ${theme.palette.primary.main}80, transparent)`,
         }
       }}>
-        <img src="/mandapa-logo.png" alt="Mandapa Logo" style={{ height: 40, marginRight: 10 }} />
+        <img src="/ritz.png" alt="Mandapa Logo" style={{ height: 40, marginRight: 10 }} />
         <Typography variant="h6" sx={{ 
           fontWeight: 500,
           color: (theme) => theme.palette.primary.main,
@@ -408,7 +408,7 @@ function App() {
                 >
                   <Box 
                     component="img" 
-                    src="/mandapa-logo.png" 
+                    src="/ritz.png" 
                     alt="Mandapa Logo" 
                     sx={{ 
                       height: 40, 
